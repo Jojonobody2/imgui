@@ -19,4 +19,4 @@ add_library(imgui ${IMGUI_SOURCE})
 
 target_include_directories(imgui PRIVATE ${CMAKE_CURRENT_SOURCE_DIR} ${Vulkan_INCLUDE_DIRS})
 
-target_link_libraries(imgui PRIVATE ${Vulkan_LIBRARY})
+target_link_libraries(imgui PRIVATE vulkan)
